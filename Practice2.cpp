@@ -14,9 +14,11 @@ Person::Person() {
 int main() {
 	// Create two instances of person here, and assign the names.
 Person a;
+cout << "Name a:" << a.firstName << ", " << a.secondName << endl;
 a.firstName = "Dorian";
 a.secondName = "Gray";
 Person b;
+cout << "Name b:" << b.firstName << ", " << b.secondName << endl;
 b.firstName = "Charlie";
 b.secondName = "Brown";
 	// Add the prints here
